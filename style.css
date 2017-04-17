@@ -1,12 +1,19 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+}
+
 .top_header{
   width: 100vw;
-  height: 200px;
+  height: 100px;
   border-bottom: 3px solid #ea535d;
   display: inline-block;
 }
 .top_header_inner{
   position: relative;
-  width: 960px;
+  width: 700px;
   height: 100%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -14,58 +21,62 @@
 .top_header_logo{
   position: absolute;
   left: 0;
-  bottom: 50px;
-  width: 300px;
+  bottom: 20px;
+  width: 200px;
 }
 .top_header_heading{
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   right: 0;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   color: #444444;
   box-sizing: border-box;
 }
 
 .top_main{
-  width: 960px;
+  width: 700px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 20px;
   box-sizing: border-box;
 }
 .top_main_text{
-  font-size: 14px;
+  font-size: 12px;
   color: #444444;
   font-weight: normal;
-  margin-bottom: 50px;
-  line-height: 24px;
+  margin-bottom: 20px;
+  line-height: 20px;
 }
 
 .profile_images{
-  width: 960px;
+  width: 700px;
   display:flex;
   justify-content :space-between;
   flex-wrap:wrap;
+  margin: 0 auto;
 }
 .profile_list_item{
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .profile_image{
-  width: 300px;
-  height: 300px;
+  width: 220px;
 }
 
 .top_footer{
-  width: 100vw;
-  height: 40px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 30px;
   background: gray;
   margin-top: 20px;
+  box-sizing: border-box;
 }
 .top_footer_copyrights{
-  width: 960px;
-  padding-top: 15px;
-  font-size: 12px;
+  width: 700px;
+  height: 30px;
+  line-height: 40px;
+  font-size: 10px;
   color: #444444;
   text-align: right;
   margin: 0 auto;
