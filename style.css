@@ -61,6 +61,7 @@ body{
 
 .profile_image{
   width: 220px;
+  box-shadow: 0 1px 5px gray;
 }
 
 .top_footer{
