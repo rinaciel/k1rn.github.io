@@ -60,12 +60,14 @@
   width: 100vw;
   height: 40px;
   background: gray;
+  margin-top: 20px;
 }
 .top_footer_copyrights{
   width: 960px;
-  margin-top: 30px;
+  padding-top: 15px;
   font-size: 12px;
   color: #444444;
   text-align: right;
   margin: 0 auto;
+  box-sizing: border-box;
 }
