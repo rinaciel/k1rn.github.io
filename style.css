@@ -81,3 +81,41 @@ body{
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+
+
+/* 個別ページ*/
+
+.contents{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.left-content {
+  width: 250px;
+  height: 800px;
+  float: left;
+  background-color: #727272;
+}
+
+.center-content {
+  width: 280px;
+  float: left;
+}
+
+.right-content {
+  width: 430px;
+  float: left;
+}
+
+
+
+.sns-item {
+  float: left;
+}
+
