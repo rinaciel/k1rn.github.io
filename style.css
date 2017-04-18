@@ -68,38 +68,32 @@
 .profile_list_item{
   margin-bottom: 10px;
 }
-
-
+/*js*/
 .profile_image_rina{
   width: 220px;
   box-shadow: 0 1px 5px gray;
   display: none;
 }
-
 .profile_image_tomita{
   width: 220px;
   box-shadow: 0 1px 5px gray;
   display: none;
 }
-
 .profile_image_fuku{
   width: 220px;
   box-shadow: 0 1px 5px gray;
   display: none;
 }
-
 .profile_image_izumi{
   width: 220px;
   box-shadow: 0 1px 5px gray;
   display: none;
 }
-
 .profile_image_kou{
   width: 220px;
   box-shadow: 0 1px 5px gray;
   display: none;
 }
-
 .profile_image_hana{
   width: 220px;
   box-shadow: 0 1px 5px gray;
@@ -166,6 +160,7 @@ letter-spacing:4px;
 display: block;
 }
 
+/*個人ページ*/
 /*個人ページフッター*/
 .prof_footer{
   width: 100%;
@@ -184,9 +179,6 @@ display: block;
   margin: 0 auto;
   box-sizing: border-box;
 }
-
-
-/*永石がやったやつ*/
 
 /*基本プロフィール*/
 .profile{
@@ -222,6 +214,7 @@ display: block;
   display: inline-block;
   margin: 5px;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 /*質問項目（？）*/
@@ -296,9 +289,12 @@ display: block;
 }
 .border_left{
   width: 240px;
-  height: 50px;
+  min-height: 50px;
   margin-left: 55px;
   border-left: 2px solid #727272;
+  padding: 10px 5px 10px 15px;
+  color: #727272;
+  font-size: 10px;
 }
 
 
