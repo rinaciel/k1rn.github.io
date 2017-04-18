@@ -111,3 +111,10 @@ img{
   width: 100%;
   height: auto;
 }
+
+/*clearfix追加*/
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: block;
+}
